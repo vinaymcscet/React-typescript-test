@@ -1,0 +1,1 @@
+export const API_URL = 'https://jsonplaceholder.typicode.com/albums/1/photos?_page=1&_limit=10';

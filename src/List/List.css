@@ -1,0 +1,97 @@
+.listPageWrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    border-radius: 20px;
+    border: 1px solid #333;
+    padding: 7px 20px;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+    vertical-align: super;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    flex-flow: wrap row;
+    padding: 0;
+}
+
+ul li {
+    max-width: 29%;
+    width: 100%;
+    margin-right: 2%;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 1% 20px 1%;
+}
+
+ul li img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+ul li p {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+ul li p:nth-child(3) {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+ul li button {
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    border-radius: 20px;
+    border: 1px solid #333;
+    padding: 7px 20px;
+    color: #333;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 10px 0;
+    vertical-align: super;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out
+}
+
+ul li button:hover {
+    background-color: #333;
+    color: #fff;
+}
